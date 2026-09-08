@@ -14,7 +14,7 @@ name: Scheduled Run
 
 on:
   schedule:
-    - cron: '* * * * *'
+    - cron: '45 4 * * *'
 
 jobs:
   Scheduled-task:
